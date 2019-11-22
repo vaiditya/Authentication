@@ -25,6 +25,11 @@ public class ServiceClass {
 		public void postDetails(Hierarchy data){
 			list.add(data);
 		}
+		
+		public void deleteDetail(String id){
+			list.removeIf(detail -> detail.getId().equals(id));
+		}
+		
 
 	
 	

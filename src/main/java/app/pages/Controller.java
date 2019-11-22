@@ -37,4 +37,9 @@ public class Controller {
 		service.postDetails(data);
 	}
 	
+	@RequestMapping(value = "/home/{id}" ,method = RequestMethod.DELETE )
+	private void deleteDetail(@PathVariable String id) {
+		service.deleteDetail(id);
+	}
+	
 }
