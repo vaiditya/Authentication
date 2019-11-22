@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HierarchyController {
 
-	@RequestMapping("/home")
+	@RequestMapping("/auth")
 	public String getHome() {
 		return "Hierarchy";
 	}
