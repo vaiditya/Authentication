@@ -1,12 +1,12 @@
 package auth.pages;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+//import org.springframework.web.bind.annotation.RequestMapping;
+//import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 public class HierarchyController {
 
-	@RequestMapping("/auth")
+//	@RequestMapping("/auth")
 	public String getHome() {
 		return "Hierarchy";
 	}

@@ -1,0 +1,8 @@
+app\pages\Controller.class
+app\pages\HomePage.class
+auth\pages\SecurityConfig.class
+app\pages\DemoRepository.class
+auth\pages\HierarchyController.class
+app\pages\ServiceClass.class
+app\pages\Hierarchy.class
+auth\pages\HierarchyApplication.class
